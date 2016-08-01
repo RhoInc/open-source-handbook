@@ -1,20 +1,24 @@
-# Open Source Initiative at Rho
+# Rho Open Source Guide
 
-## Introduction
+## Overview
 
-### What is open source?
+This library provides information about open source software development at [Rho Inc.](http://www.rhoworld.com). We provide a brief overview of Rho's philosopy and approach to open source projects, and then give guidelines for Rho Staff and external contributors working on Rho's open source projects. 
+
+Planned updates to this document are tracked as [github issues](https://github.com/RhoInc/open-source-guide/issues). Questions can be submitted on the issues page or via [email](mailto:opensource@rhoworld.com).
+
+## What is open source?
 
 The [Open Source Initiative](https://opensource.org/) has a good [definition](https://opensource.org/faq#osd):
 
 > Generally, Open Source software is software that can be freely accessed, used, changed, and shared (in modified or unmodified form) by anyone.
 
-### What is Rho's position on open source code sharing?
+## What is Rho's position on open source code sharing?
 
 [Rho](http://www.rhoworld.com/) is in favor of open source code sharing. An open source approach takes the work done at Rho and broadens its reach. That's a great thing since it falls in line with our our core purpose: 
 
 > To improve health, extend life, and enhance quality of life through corporate and research excellence.
 
-### What is currently being done at Rho?
+## What is currently being done at Rho?
 
 More than a dozen open source projects are publicly available on [our GitHub page](https://github.com/RhoInc), and many more are under development. Contact [opensource@rhoworld.com](mailto:opensource@rhoworld.com) if you have questions or want to get involved.
 
@@ -40,7 +44,7 @@ When possible, code should be made public.
 
 *Policy* – The Open Government initiative ( [https://www.whitehouse.gov/open/](https://www.whitehouse.gov/open/)) which began in 2009 is pushing for more openness and transparency in government, and recently led to a draft federal source code policy that would mandate code sharing for federally funded research ( [https://sourcecode.cio.gov/](https://sourcecode.cio.gov/))
 
-*Professional Development* – Working on an open source project can be a form of on-the-job professional development. It is a great way to keep up with external innovations and open source projects serve as great &quot;work samples&quot; on a resume.
+*Professional Development* – Working on an open source project can be a form of on-the-job professional development. It is a great way to keep up with external innovations and open source projects serve as great "work samples" on a resume.
 
 # Developer Guidance
 
