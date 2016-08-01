@@ -2,7 +2,7 @@
 
 ## Overview
 
-This library provides information about open source software development at [Rho](http://www.rhoworld.com). We provide a brief overview of Rho's philosopy regarding open source development, and then give guidelines for Rho Staff and external contributors working on Rho's open source projects. 
+This library provides information about open source software development at [Rho](http://www.rhoworld.com). We provide a brief overview of Rho's philosopy regarding open source development, and then give guidelines for Rho staff and external contributors working on Rho's open source projects. 
 
 Planned updates to this document are tracked as [github issues](https://github.com/RhoInc/open-source-guide/issues). Questions can be submitted on the issues page or via [email](mailto:opensource@rhoworld.com).
 
