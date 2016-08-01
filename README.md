@@ -70,11 +70,17 @@ Creating and maintaining an open source project is a collaboration between the _
 
 _Responsible parties_: Project Owner & Open Source Committee
 
-1. Project Owner fills out info sheet on Sharepoint and submits to Open Source Committee
-2. Open Source Committee reviews the sheet and approves or contacts owner to discuss
+1. To set up a new open source project, the Project Owner [emails the Open Source committee](mailto:opensource@rhoworld.com), and includes the following information: 
+- A brief description of the project
+- Sponsor of the project
+- Who is working on the project? 
+- Current status of the project (e.g. "Proposal sent to NIAID on 10/9/2016" or "Internal library is active use. See s:/my/project/path/")
+- Brief rationale for making the project open source
+
+2. Open Source Committee reviews the proposal and either approves or contacts owner to discuss
 3. Once approved, the private project is set up on GitHub.
   
-- If needed, the Project Owner obtains a GitHub account and requests access to the   [RhoInc GitHub organization](https://github.com/RhoInc)
+- If needed, the Project Owner obtains a GitHub account and requests access to the [RhoInc GitHub organization](https://github.com/RhoInc)
 - The Open Source Committee creates a new private repository including a set of standard files from a basic template and gives access to any needed developers.
 
 ### Phase 2 – Code and Documentation preparation 
