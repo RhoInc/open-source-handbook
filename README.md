@@ -34,7 +34,7 @@ When possible, code should be made public.
 
 *Core Values* – Open source development reflects [Rho's Core values](http://www.rhoworld.com/rho/about/our-values). _ A team culture_, _critical and creative thinking_, and _innovation_ are at the heart of the open source philosophy. We demonstrate our _integrity_ and _quality_ by releasing the details of our process and allowing others to examine and enhance our work. The open source process encourages _agility and adaptability_, _profitability_, and _stability_ by encouraging thorough documentation, reducing rework, and increasing the visibility of our work.
 
-*Process Improvements* – Many of the benefits of the open source process hold true even if a project is never publicly released and the audience is only our fellow employees. Developing a tool as if it could become open source, even if we doubt it ever will, has value because it can foster engagement across sectors and it prompts you to develop tools with other users in mind.  This approach also helps you avoid rework should your project be converted to open source later.
+*Process Improvements* – Many of the benefits of the open source process hold true even if a project is never publicly released and the audience is only our fellow employees. Developing a tool as if it could become open source, even if we doubt it ever will, has value because it can foster engagement across sectors and it prompts you to develop tools with other users in mind. This approach also helps you avoid rework should your project be converted to open source later.
 
 *Community* – Open source projects create valuable relationships with the broader research community that can expand our perspective, improve our work, and potentially lead to new work for Rho.
 
@@ -50,7 +50,7 @@ When possible, code should be made public.
 
 ## Should my project be open source?
 
-A variety of projects are at Rho suitable for open source development. The checklist below lists attributes that indicate your project may be a good candidate for open source, but this is not meant to be prescriptive or exhaustive.
+A variety of projects at Rho are suitable for open source development. The checklist below lists attributes that indicate if your project may be a good candidate for open source, however this is not meant to be prescriptive or exhaustive.
 
 - Benefits others outside of Rho
 - Developed with federal or overhead funds
@@ -62,9 +62,9 @@ A variety of projects are at Rho suitable for open source development. The check
 
 If you think your project would be a good candidate for open source release, contact us at [opensource@rhoworld.com](mailto:opensource@rhoworld.com).
 
-## Step-by-step for open source projects at Rho
+## Step-by-step guide for open source projects at Rho
 
-Creating and maintaining an open source project is a collaboration between the _Project Owner_ and _Rho's Open Source Committee_. This section describes 4 phases of open source development, and outlines who is responsible for each part of the process.
+Creating and maintaining an open source project is a collaboration between the _Project Owner_ and _Rho's Open Source Committee_. This section describes 4 phases of open source development and outlines who is responsible for each part of the process.
 
 ### Phase 1 – Project Set-up 
 
@@ -78,6 +78,7 @@ _Responsible parties_: Project Owner & Open Source Committee
  - Brief rationale for making the project open source
 
 2. Open Source Committee reviews the proposal and either approves or contacts owner to discuss
+
 3. Once approved, the private project is set up on GitHub.
   
 - If needed, the Project Owner obtains a GitHub account and requests access to the [RhoInc GitHub organization](https://github.com/RhoInc)
@@ -99,13 +100,13 @@ Once the content is ready for initial release, the Project Owner notifies the Op
 
 _Responsible party_: Project Owner and Open Source Committee
 
-The Project Owner is responsible for maintaining the project, which includes responding to any issues or pull requests from other users - with special priority given to requests from outside Rho. The Open Source Committee can support these efforts as needed. The Open Source Committee will conduct periodic reviews of updates to existing projects, and will contact the Project Owner with questions as needed.
+The Project Owner is responsible for maintaining the project, which includes responding to any issues or pull requests from other users - with special priority given to requests from outside Rho; the Open Source Committee can support these efforts as needed. The Open Source Committee will conduct periodic reviews of updates to existing projects, and will contact the Project Owner with questions as needed.
 
 # Content Guidelines and Resources
 
 ## Getting Started with Open Source Development 
 
-Users should be familiar with open source development in general and GitHub in particular before starting their first project. Here are some good links to get familiar with the basics:
+Users should be familiar with open source development in general, GitHub in particular, before starting their first project. Here are some good links to get familiar with the basics:
 
 - [Open Source](https://opensource.com/resources/what-open-source)
 - [GitHub Guides](https://guides.github.com/) (especially [Hello World with GitHub](https://guides.github.com/activities/hello-world/))
@@ -121,8 +122,8 @@ Users should also review some of our existing open source projects:
 Several types of content are required for Rho's open source projects. In particular:
 
 - *Code* – The source code for your program should be posted to GitHub and should follow programming best practices.
-- *Documentation* – Stand-alone documentation should be included in the form of a README.md and/or a wiki. Documentation should include instructions on how to use the library, and documentation of requirements and configurable settings.
-- *Examples* – Stand-alone examples that the user can reproduce independently should be included demonstrating the primary use cases for the library. These can be included as part of the wiki or as [GitHub gists](https://help.github.com/articles/about-gists/). Examples should follow the data guidelines given below.
+- *Documentation* – Stand-alone documentation should be included in the form of a README.md and/or a wiki. Documentation should include instructions on how to use the library, requirements, and configurable settings.
+- *Examples* – Stand-alone examples that the user can reproduce independently should be included, demonstrating the primary use cases for the library; these can be included as part of the wiki or as [GitHub gists](https://help.github.com/articles/about-gists/). Examples should follow the data guidelines given below.
 - *License* – A license.md should be inluded in for all projects. Rho&'s preferred license for open source software is the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Data guidelines
@@ -131,7 +132,7 @@ No private or confidential data should be included in an open source project or 
 
 - No private or confidential data
 - No personal identifiers
-- De-identified data from Federal studies may be used if the data have already been released publicly and there are no embargoes on data sharing
+- De-identified data from Federal studies may be used if the data has already been released publicly and there are no embargoes on data sharing
 - When in doubt, consider using publicly available data for examples. Several repositories exist including
   - [data.gov](https://www.data.gov/)
   - Reddit ( [1](https://www.reddit.com/r/datasets/top/), [2](https://www.reddit.com/r/opendata/top/))
@@ -142,7 +143,7 @@ No private or confidential data should be included in an open source project or 
 
 Our open source projects are hosted at [https://github.com/RhoInc](https://github.com/RhoInc). GitHub has built-in procedures for many common activities in open source development including version control, issue tracking, and release management.
 
-The exact process used to create and maintain a project can vary as long as the basic content described above is present and the style guides are followed. However, some recommended best practices have emerged and are listed here for reference.
+The exact process used to create and maintain a project can vary as long as the basic content described above is present and the style guides are followed. However, some recommended best practices have emerged and are listed below for reference:
 
 - Release process: [GitHub Releases](https://github.com/blog/1547-release-your-software)
 - Issue Tracking: [GitHub Issues](https://guides.github.com/features/issues/)
@@ -158,7 +159,7 @@ The exact process used to create and maintain a project can vary as long as the 
 
 ## What are my obligations after sharing my project?
 
-One of the benefits of sharing a project open source is it allows others to refine, adapt, and improve upon your code.  When you release open source, you should be willing to engage other users if they have questions, identify errors, or propose changes to your code.  For the majority of projects, this is a very minimal time commitment (and many projects never receive any feedback), but you should be prepared to interact with other users if they are interested in your tool.  It is also a good idea to review your project over time to see if you could enhance it or improve upon it.  As new technologies become available, you may want to update your code to keep it relevant or to add new features.
+One of the benefits of sharing a project open source is it allows others to refine, adapt, and improve upon your code.  When you release open source, you should be willing to engage other users if they have questions, identify errors, or propose changes to your code. For the majority of projects, this is a very minimal time commitment (and many projects never receive any feedback), but you should be prepared to interact with other users if they are interested in your tool. It is also a good idea to review your project over time to see if you could enhance it or improve upon it. As new technologies become available, you may want to update your code to keep it relevant or to add new features.
 
 ## I'm not a programmer. Can I contribute to open source projects?
 
