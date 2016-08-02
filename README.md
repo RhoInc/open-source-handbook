@@ -32,7 +32,7 @@ When possible, code should be made public.
 
 ## Motivations/Business Value
 
-*Core Values* – Open source development reflects [Rho's Core values](http://www.rhoworld.com/rho/about/our-values). _ A team culture_, _critical and creative thinking_, and _innovation_ are at the heart of the open source philosophy. We demonstrate our _integrity_ and _quality_ by releasing the details of our process and allowing others to examine and enhance our work. The open source process encourages _agility and adaptability_, _profitability_, and _stability_ by encouraging thorough documentation, reducing rework, and increasing the visibility of our work.
+*Core Values* – Open source development reflects [Rho's Core values](http://www.rhoworld.com/rho/about/our-values). _A team culture_, _critical and creative thinking_, and _innovation_ are at the heart of the open source philosophy. We demonstrate our _integrity_ and _quality_ by releasing the details of our process and allowing others to examine and enhance our work. The open source process encourages _agility and adaptability_, _profitability_, and _stability_ by encouraging thorough documentation, reducing rework, and increasing the visibility of our work.
 
 *Process Improvements* – Many of the benefits of the open source process hold true even if a project is never publicly released and the audience is only our fellow employees. Developing a tool as if it could become open source, even if we doubt it ever will, has value because it can foster engagement across sectors and it prompts you to develop tools with other users in mind. This approach also helps you avoid rework should your project be converted to open source later.
 
@@ -42,7 +42,7 @@ When possible, code should be made public.
 
 *Publication* – Reproducibility is an increasingly important topic in scientific journals, with recent meta-analyses showing that a large percentage of results can&#39;t be reproduced. As a result, many top journals are now recommending or requiring data and/or code to be submitted along with manuscripts.
 
-*Policy* – The Open Government initiative ( [https://www.whitehouse.gov/open/](https://www.whitehouse.gov/open/)) which began in 2009 is pushing for more openness and transparency in government, and recently led to a draft federal source code policy that would mandate code sharing for federally funded research ( [https://sourcecode.cio.gov/](https://sourcecode.cio.gov/))
+*Policy* – [The Open Government initiative] (https://www.whitehouse.gov/open/) which began in 2009 is pushing for more openness and transparency in government, and recently led to a draft [federal source code policy] (https://sourcecode.cio.gov/) that would mandate code sharing for federally funded research.
 
 *Professional Development* – Working on an open source project can be a form of on-the-job professional development. It is a great way to keep up with external innovations and open source projects serve as great "work samples" on a resume.
 
