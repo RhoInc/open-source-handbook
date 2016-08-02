@@ -113,7 +113,7 @@ Users should be familiar with open source development in general, GitHub in part
 
 Users should also review some of our existing open source projects:
 
-- [Webcharts](https://github.com/RhoInc/Webcharts)- A javascript library with a multi-page wiki and more than 20 releases.
+- [Webcharts] (https://github.com/RhoInc/Webcharts)- A javascript library with a multi-page wiki and more than 20 releases.
 - [SAS Axis Macro](https://github.com/RhoInc/sas-axismacro) - A SAS macro for automating the selection of axis ranges for continuous variables.
 - [CASI Minimally Important Difference Simulation](https://github.com/RhoInc/CASI_MID) - Supplemental materials and code giving details about a statistical simulation conducted in support of a manuscript submission.
 
@@ -152,7 +152,7 @@ The exact process used to create and maintain a project can vary as long as the 
 - Code Review Tools: _Coming soon_
 - Coding Guidelines: _Coming soon_
 - Code Style Guides: _Coming soon_
-- Development Workflow: [GitHub flow](https://guides.github.com/introduction/flow/)_(Advanced)_
+- Development Workflow: [GitHub flow](https://guides.github.com/introduction/flow/) _(Advanced)_
 - Deploy Process/Continuous Deployment: [TeamCity](https://www.jetbrains.com/teamcity/) _(Advanced)_
 
 # FAQ
