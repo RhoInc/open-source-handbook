@@ -1,4 +1,4 @@
-# Rho Open Source Guide
+# Rho Open Source Handbook
 
 ## Overview
 
@@ -112,7 +112,7 @@ Users should be familiar with open source development in general, GitHub in part
 
 Users should also review some of our existing open source projects:
 
-- [Webcharts] (https://github.com/RhoInc/Webcharts) - A javascript library with a multi-page wiki and more than 20 releases.
+- [Webcharts](https://github.com/RhoInc/Webcharts) - A javascript library with a multi-page wiki and more than 20 releases.
 - [SAS Axis Macro](https://github.com/RhoInc/sas-axismacro) - A SAS macro for automating the selection of axis ranges for continuous variables.
 - [CASI Minimally Important Difference Simulation](https://github.com/RhoInc/CASI_MID) - Supplemental materials and code giving details about a statistical simulation conducted in support of a manuscript submission.
 
@@ -127,6 +127,8 @@ Several types of content are required for Rho's open source projects. In particu
 
 ## Data guidelines
 
+**Use an abundance of caution when sharing data. Review all Rho SOPs and policies, which take precedence over this document. Contact [opensource@rhoworld.com](mailto:opensource@rhoworld.com) if you have any questions. **
+
 No private or confidential data should be included in an open source project or it's associated examples. Guidelines include:
 
 - No private or confidential data
@@ -136,7 +138,7 @@ No private or confidential data should be included in an open source project or 
   - [data.gov](https://www.data.gov/)
   - Reddit ( [1](https://www.reddit.com/r/datasets/top/), [2](https://www.reddit.com/r/opendata/top/))
 
-**Use an abundance of caution when sharing data.** Contact [opensource@rhoworld.com](mailto:opensource@rhoworld.com) if you have any doubt. 
+
 
 ## GitHub and other Tools
 
@@ -158,7 +160,7 @@ The exact process used to create and maintain a project can vary as long as the 
 
 ## What are my obligations after sharing my project?
 
-One of the benefits of sharing a project open source is it allows others to refine, adapt, and improve upon your code.  When you release open source, you should be willing to engage other users if they have questions, identify errors, or propose changes to your code. For the majority of projects, this is a very minimal time commitment (and many projects never receive any feedback), but you should be prepared to interact with other users if they are interested in your tool. It is also a good idea to review your project over time to see if you could enhance it or improve upon it. As new technologies become available, you may want to update your code to keep it relevant or to add new features.
+One of the benefits of sharing a project open source is it allows others to refine, adapt, and improve upon your code.  When you release open source, you should be willing to engage other users if they have questions, identify errors, or propose changes to your code. For the majority of projects, this is a very minimal time commitmen, but you should be prepared to interact with other users if they are interested in your tool. It is also a good idea to review your project over time to see if you could enhance it or improve upon it. As new technologies become available, you may want to update your code to keep it relevant or to add new features.
 
 ## I'm not a programmer. Can I contribute to open source projects?
 
