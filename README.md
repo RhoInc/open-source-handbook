@@ -127,7 +127,7 @@ Several types of content are required for Rho's open source projects. In particu
 
 ## Data guidelines
 
-**Use an abundance of caution when sharing data. Review all Rho SOPs and policies, which take precedence over this document. Contact [opensource@rhoworld.com](mailto:opensource@rhoworld.com) if you have any questions. **
+**Use an abundance of caution when sharing data. Review all Rho SOPs and policies, which take precedence over this document. Contact [opensource@rhoworld.com](mailto:opensource@rhoworld.com) if you have any questions.**
 
 No private or confidential data should be included in an open source project or it's associated examples. Guidelines include:
 
