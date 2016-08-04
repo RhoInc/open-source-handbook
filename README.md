@@ -80,9 +80,8 @@ _Responsible parties_: Project Owner & Open Source Committee
 2. Open Source Committee reviews the proposal and either approves or contacts owner to discuss
 
 3. Once approved, the private project is set up on GitHub.
-  
-- If needed, the Project Owner obtains a GitHub account and requests access to the [RhoInc GitHub organization](https://github.com/RhoInc)
-- The Open Source Committee creates a new private repository including a set of standard files from a basic template and gives access to any needed developers.
+  - If needed, the Project Owner obtains a GitHub account and requests access to the [RhoInc GitHub organization](https://github.com/RhoInc)
+  - The Open Source Committee creates a new private repository including a set of standard files from a basic template and gives access to any needed developers.
 
 ### Phase 2 – Code and Documentation preparation 
 
@@ -113,7 +112,7 @@ Users should be familiar with open source development in general, GitHub in part
 
 Users should also review some of our existing open source projects:
 
-- [Webcharts] (https://github.com/RhoInc/Webcharts)- A javascript library with a multi-page wiki and more than 20 releases.
+- [Webcharts] (https://github.com/RhoInc/Webcharts) - A javascript library with a multi-page wiki and more than 20 releases.
 - [SAS Axis Macro](https://github.com/RhoInc/sas-axismacro) - A SAS macro for automating the selection of axis ranges for continuous variables.
 - [CASI Minimally Important Difference Simulation](https://github.com/RhoInc/CASI_MID) - Supplemental materials and code giving details about a statistical simulation conducted in support of a manuscript submission.
 
