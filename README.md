@@ -123,7 +123,7 @@ Several types of content are required for Rho's open source projects. In particu
 - *Code* – The source code for your program should be posted to GitHub and should follow programming best practices.
 - *Documentation* – Stand-alone documentation should be included in the form of a README.md and/or a wiki. Documentation should include instructions on how to use the library, requirements, and configurable settings.
 - *Examples* – Stand-alone examples that the user can reproduce independently should be included, demonstrating the primary use cases for the library; these can be included as part of the wiki or as [GitHub gists](https://help.github.com/articles/about-gists/). Examples should follow the data guidelines given below.
-- *License* – A license.md should be inluded in for all projects. Rho&'s preferred license for open source software is the [MIT license](https://opensource.org/licenses/MIT).
+- *License* – A license.md should be inluded in for all projects. Rho's preferred license for open source software is the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Data guidelines
 
