@@ -31,12 +31,12 @@ The details about issue management vary from project to project, but, at a minim
 - Assignee
 
 #Release Workflow
-Broadly speaking, work on a new version of a project occurs in 3 phases.
+Broadly speaking, work on a new version of a project occurs in 4 phases.
 
-1. Planning
-2. Development 
-3. Testing
-4. Deployment
+1. **Planning** - Outline features and make issues. 
+2. **Development** - Code the new features in a branch. 
+3. **Testing** - Test the new features. 
+4. **Deployment** - Release the new features.
 
 Workflow details vary from project-to-project, but guidance for each phase is provided below.
 
