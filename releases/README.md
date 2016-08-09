@@ -12,20 +12,23 @@ Our open source projects use [semantic versioning](http://semver.org/). In short
 > - MINOR version when you add functionality in a backwards-compatible manner, and
 > - PATCH version when you make backwards-compatible bug fixes.
 
-##Github releases and milestones
-Releases, milestones and tags are all standard features in github. We implement them to track version follows: 
-- _Releases_ - Each version of a library gets a release, which ties the version to a snapshot of the source code (a commit). A    step-by-step guide to creating releases is [here](https://help.github.com/articles/creating-releases/). 
-- _Milestones_ - Each version of a library also gets a milestone. A milestone is used to tie a set of issues to an upcoming version of the software. A step-by-step guide to creating milestones is [here](https://help.github.com/articles/creating-and-editing-milestones-for-issues-and-pull-requests/).
+##Github releases
+Releases are a standard feature in github. We implement them to track version as follows: 
+- _Releases_ (Required) - Each version of a library gets a release. The release ties the version to a snapshot of the source code (a commit). A    step-by-step guide to creating releases is [here](https://help.github.com/articles/creating-releases/). 
+- _Milestones_ (Optional) - Milestones can be used to tie a set of issues to an upcoming version of the repository. A step-by-step guide to creating milestones is [here](https://help.github.com/articles/creating-and-editing-milestones-for-issues-and-pull-requests/).
 
-So, each version of our repositories gets both a milestone and a release. More detail about how releases, milestones and tags are used at Rho is given in the [workflow](#workflow) section. 
+More detail about how releases, milestones and tags are used at Rho is given in the [workflow](#workflow) section. 
 
 #Issues
-All development tasks (new features, technical tasks, bugs, etc.) are tracked as github issues. Milestones are used to group issues according to version. Labels are used for to organize priority and issue type as follows: 
+Development tasks (new features, technical tasks, bugs, etc.) should be tracked using issue tracking software. We typically use JIRA (for large, multi-developer projects) or github issues (for smaller issues). 
 
-- Priority - Labels for "Low Priority" and "High Priority" are used as needed. 
-- Issue Type - "Bug", "Enhancement","Documentation" and "New Feature" labels are used to indicate the type of issue. 
- 
-Generally speaking, milestones are required, but labels are optional. 
+The details about issue management vary from project to project, but, at a minimum, we track the following:
+- Name
+- Description
+- Priority - Tracked with custom labels in Github. 
+- Release version - Tracked with "Fix Version" in JIRA; "Milestone" in Github.
+- Issue type - Tracked with custom labels in Github. 
+- Assignee
 
 #Release Workflow
 Broadly speaking, work on a new version of a project occurs in 3 phases.
@@ -34,27 +37,28 @@ Broadly speaking, work on a new version of a project occurs in 3 phases.
 2. Development & Testing
 3. Deployment
 
-Details about the phases is provided below.
+Again, details about implementation vary from project-to-project, but some guidance for each phase is provided below.
 
 ##Phase 1 - Planning
-First, determine what will be included in the new release and make sure issues provide enough detail for a developer. Complete the following steps in this phase: 
+The team agrees on an approach for the planned changes and make sure issues are created before coding begins.. 
 
-- Determine what the new version number will be based on the semantic versioning guidelines above. 
-- Draft a new release for the version, with an overview of the updates. Versions should be called `vX.X.X`. Make sure to mark the release as a draft until the work is done. 
-- Create a milestone for the version. The milestone should also be called `vX.X.X`.
-- Create issues describing the new features, and associate them with the milestone.
-- Assign the issues to the developer(s) who will complete the tasks. 
-- Developers should review the issues and follow-up with any questions. Comments on the issues, with appropriate @ mentions, are a good place for the discussion. 
- 
-Once the issues are well defined, the release can more to Phase 2. 
+- Make a general plan for what features are going in to the next release. No need to get this perfect. You can update as you're working, but it's good to have the team agree on an approach. (**Required**)
+- Create issues describing the new features, and associate them with the milestone.If no issue exists, create one before commiting code. (**Required**)
+- Draft a new release for the version, with an overview of the updates. Versions should be called `vX.X.X`. Make sure to mark the release as a draft until the work is done.  Make sure you're following the semantic versioning guidelines when picking the version number. (*Recommended*)
+- Create a milestone for the version, and assign the milestone to the relevant issues . The milestone should also be called `vX.X.X`. (*Recommended*)
 
-##Phase 2 - Development & Testing
-Here the developer updates the source code to implement new functionality described in the issues using the following process: 
+##Phase 2 - Development
+Once the team agrees on an approach and creates issues, the developer creates a new branch and updates the source code to implement new functionality.
 
-- The developer creates a new branch for development work and notes the branch name on a comment in the issue(s).
-- The developer commits changes to resolve the issue in the branch and mentions the related issue number in each commit.
+- The developer creates a new branch for development work and notes the branch name on a comment in the issue(s). Please do not commit changes directly to the `master` branch, all new code should be committed to a new "feature branch". (**Required**).
+- If using github issues, mention the related issue number in each commit (*Recommended*). 
+- If applicable, make an example demonstrating new functionality. (*Recommended*)
+
+##Phase 3 Testing
+- Once a new feature is implemented, it should be independently tested before being merged in to `master`. Testing should be conductued by by someone other than the developer. (**Required**)
+- The developer creates a pull request with a note that will automatically close the issue(s) once the pull request is merged ([see details](https://github.com/blog/1506-closing-issues-via-pull-requests)).
 - The developer "deploys" the branch so that a tester can confirm functionality. This is most commonly done using a github gist. Note the location in the issue(s). 
-- The developer creates a pull request with a note that will automatically close the issue(s) once the pull request is merged ([see details](https://github.com/blog/1506-closing-issues-via-pull-requests)). 
+ 
 - The developer informs the tester that the pull request is ready via an @ comment on the pull request. 
 - The tester confirms the functionality or informs the developer about problems, via comments on the pull request. 
 
