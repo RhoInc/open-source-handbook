@@ -20,7 +20,6 @@ Releases, milestones and tags are all standard features in github. We implement 
 So, each version of our repositories gets both a milestone and a release. More detail about how releases, milestones and tags are used at Rho is given in the [workflow](#workflow) section. 
 
 #Issues
-
 All development tasks (new features, technical tasks, bugs, etc.) are tracked as github issues. Milestones are used to group issues according to version. Labels are used for to organize priority and issue type as follows: 
 
 - Priority - Labels for "Low Priority" and "High Priority" are used as needed. 
@@ -29,12 +28,11 @@ All development tasks (new features, technical tasks, bugs, etc.) are tracked as
 Generally speaking, milestones are required, but labels are optional. 
 
 #Release Workflow
-Broadly speaking, work on a new version of a project occurs in 4 phases.
+Broadly speaking, work on a new version of a project occurs in 3 phases.
 
-1 - Planning
-2 - Development
-3 - Testing
-4 - Deployment
+1. Planning
+2. Development & Testing
+3. Deployment
 
 Details about the phases is provided below.
 
@@ -50,26 +48,38 @@ First, determine what will be included in the new release and make sure issues p
  
 Once the issues are well defined, the release can more to Phase 2. 
 
-##Phase 2 - Development
-Here the developer updates the source code to implement new functionality described in the issues.  
+##Phase 2 - Development & Testing
+Here the developer updates the source code to implement new functionality described in the issues using the following process: 
 
-- The developer creates a new branch for development work (note the branch name on a comment in each issue).
-- The developer commits changes to resolve the issue in the branch (mention the related issue in each commit).
-- The developer "deploys" the branch so that a tester can confirm functionality. This is most commonly done using a github gist. 
-- The developer creates a pull request, including a link to the examples for testing, with a note that will close the issue once the pull request is merged ([see details](https://github.com/blog/1506-closing-issues-via-pull-requests)). 
-- The developer assigns the issue(s) to a tester and the tester 
+- The developer creates a new branch for development work and notes the branch name on a comment in the issue(s).
+- The developer commits changes to resolve the issue in the branch and mentions the related issue number in each commit.
+- The developer "deploys" the branch so that a tester can confirm functionality. This is most commonly done using a github gist. Note the location in the issue(s). 
+- The developer creates a pull request with a note that will automatically close the issue(s) once the pull request is merged ([see details](https://github.com/blog/1506-closing-issues-via-pull-requests)). 
+- The developer informs the tester that the pull request is ready via an @ comment on the pull request. 
+- The tester confirms the functionality or informs the developer about problems, via comments on the pull request. 
 
-Generally speaking, we use [github flow](https://guides.github.com/introduction/flow/) for larger projects.
+Once all issues in the milestone for a given release have passed testing, we move to Phase 3. 
 
-##Phase 3 - Testing
+We use [github flow](https://guides.github.com/introduction/flow/) which emphasizes making a new branch for each feature for larger multi-developer projects. For small single-developer projects, a single branch might be made for a release. 
 
-##Phase 4 - Deployment
+##Phase 3 - Deployment
+Once all issues in a given milestone have passed testing, the new features are ready to be deployed. The developer does the following: 
+
+- Merge the pull requests in to the master branch.
+- Make any needed updates to the wiki.
+- Make any updates to examples (or creates a new example to demonstrate new functionality and add it to the wiki).
+- If there is a build process (like the once described [here](https://github.com/RhoInc/webcharts-wrapper-boilerplate/wiki)), make sure it is fully executed.
+- If the package is being tracked via NPM, publish the new version following these steps:  
+ 1. Confirm that you have the latest version of the repo checked out on your computer
+ 2. Using a shell, browse to the root directory for the repo
+ 3. Login to npm via npm adduser --always-auth (at Rho use the rhographics username and password)
+ 4. Confirm that the package.json file is up to date (especially the version field)
+ 5. Publish the package by typing npm publish
+- Reviews the draft release notes, and update as needed, and publish the release.
+- Save a snapshot of the new version to https://graphics.rhoworld.com/src/ following the steps below (__coming soon__)
 
 #Exeptions and Modifications
 The processes described here represent a baseline guidance for open source projects at Rho, but project teams are encouraged to customize these methods as is appropriate for a given project. These customizations include: 
 
 - Using JIRA instead of github issues is fairly common in larger projects that implement SCRUM/Agile methodologies. 
 - Several projects (like this one!) are primarily for documentation. These projects still use github, but generally do not have versioned releases. 
-- For small single-developer projects, we are considerably more flexible regarding the one-issue one-branch paradigm in described in github flow. In these projects, the developer might just create a single branch for all feature development in an upcoming version. 
-
-
