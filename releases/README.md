@@ -17,7 +17,7 @@ Releases are a standard feature in GitHub. We implement them to track version as
 - _Releases_ (Required) - Each version of a library gets a release. The release ties the version to a snapshot of the source code (a commit). A    step-by-step guide to creating releases is [here](https://help.github.com/articles/creating-releases/). 
 - _Milestones_ (Optional) - Milestones can be used to tie a set of issues to an upcoming version of the repository. A step-by-step guide to creating milestones is [here](https://help.github.com/articles/creating-and-editing-milestones-for-issues-and-pull-requests/).
 
-More detail about how releases, milestones and tags are used at Rho is given in the [workflow](#releaseworkflow) section. 
+More detail about how releases, milestones and tags are used at Rho is given in the [workflow](#release-workflow) section. 
 
 #Issues
 Development tasks (new features, technical tasks, bugs, etc.) should be tracked using issue tracking software. We typically use JIRA (for large, multi-developer projects) or GitHub issues (for smaller issues). 
