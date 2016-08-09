@@ -34,10 +34,11 @@ The details about issue management vary from project to project, but, at a minim
 Broadly speaking, work on a new version of a project occurs in 3 phases.
 
 1. Planning
-2. Development & Testing
-3. Deployment
+2. Development 
+3. Testing
+4. Deployment
 
-Again, details about implementation vary from project-to-project, but some guidance for each phase is provided below.
+Workflow details vary from project-to-project, but guidance for each phase is provided below.
 
 ##Phase 1 - Planning
 The team agrees on an approach for the planned changes and make sure issues are created before coding begins.. 
@@ -54,17 +55,18 @@ Once the team agrees on an approach and creates issues, the developer creates a 
 - If using github issues, mention the related issue number in each commit (*Recommended*). 
 - If applicable, make an example demonstrating new functionality. (*Recommended*)
 
-##Phase 3 Testing
+##Phase 3 - Testing
+New functionality is verified by an independent tester before release. 
+
 - Once a new feature is implemented, it should be independently tested before being merged in to `master`. Testing should be conductued by by someone other than the developer. (**Required**)
-- The developer creates a pull request with a note that will automatically close the issue(s) once the pull request is merged ([see details](https://github.com/blog/1506-closing-issues-via-pull-requests)).
-- The developer "deploys" the branch so that a tester can confirm functionality. This is most commonly done using a github gist. Note the location in the issue(s). 
- 
-- The developer informs the tester that the pull request is ready via an @ comment on the pull request. 
-- The tester confirms the functionality or informs the developer about problems, via comments on the pull request. 
+- A standard github-only testing workflow might follow the following process: (*Recommended*):  
+ 1. The developer creates a pull request once a feature branch is ready for testing.
+ 2. Developer comments on the pull requests with an @ mention, letting the tester know the branch is ready and provides instructions about how to access the updates (e.g. links to a github gist) 
+ 3. The tester confirms the functionality or informs the developer about problems, via comments on the pull request. 
+ 4. Issues are closed once testing is complete. This can be done automatically using [this process](https://github.com/blog/1506-closing-issues-via-pull-requests)
 
-Once all issues in the milestone for a given release have passed testing, we move to Phase 3. 
+Once all features for a new version are tested, we move to Phase 4. 
 
-We use [github flow](https://guides.github.com/introduction/flow/) which emphasizes making a new branch for each feature for larger multi-developer projects. For small single-developer projects, a single branch might be made for a release. 
 
 ##Phase 3 - Deployment
 Once all issues in a given milestone have passed testing, the new features are ready to be deployed. The developer does the following: 
@@ -87,3 +89,4 @@ The processes described here represent a baseline guidance for open source proje
 
 - Using JIRA instead of github issues is fairly common in larger projects that implement SCRUM/Agile methodologies. 
 - Several projects (like this one!) are primarily for documentation. These projects still use github, but generally do not have versioned releases. 
+- We use [github flow](https://guides.github.com/introduction/flow/) which emphasizes making a new branch for each feature for larger multi-developer projects. For small single-developer projects, a single branch might be made for a release. 
