@@ -8,9 +8,9 @@ Our open source projects use [semantic versioning](http://semver.org/). In short
 
 > Given a version number MAJOR.MINOR.PATCH, increment the:
 > 
-> MAJOR version when you make incompatible API changes,
-> MINOR version when you add functionality in a backwards-compatible manner, and
-> PATCH version when you make backwards-compatible bug fixes.
+> - MAJOR version when you make incompatible API changes,
+> - MINOR version when you add functionality in a backwards-compatible manner, and
+> - PATCH version when you make backwards-compatible bug fixes.
 
 ##Github releases and milestones
 Releases, milestones and tags are all standard features in github. We implement them to track version follows: 
@@ -29,10 +29,37 @@ All development tasks (new features, technical tasks, bugs, etc.) are tracked as
 Generally speaking, milestones are required, but labels are optional. 
 
 #Release Workflow
+Broadly speaking, work on a new version of a project occurs in 4 phases.
+
+1 - Planning
+2 - Development
+3 - Testing
+4 - Deployment
+
+Details about the phases is provided below.
 
 ##Phase 1 - Planning
+First, determine what will be included in the new release and make sure issues provide enough detail for a developer. Complete the following steps in this phase: 
+
+- Determine what the new version number will be based on the semantic versioning guidelines above. 
+- Draft a new release for the version, with an overview of the updates. Versions should be called `vX.X.X`. Make sure to mark the release as a draft until the work is done. 
+- Create a milestone for the version. The milestone should also be called `vX.X.X`.
+- Create issues describing the new features, and associate them with the milestone.
+- Assign the issues to the developer(s) who will complete the tasks. 
+- Developers should review the issues and follow-up with any questions. Comments on the issues, with appropriate @ mentions, are a good place for the discussion. 
+ 
+Once the issues are well defined, the release can more to Phase 2. 
 
 ##Phase 2 - Development
+Here the developer updates the source code to implement new functionality described in the issues.  
+
+- The developer creates a new branch for development work (note the branch name on a comment in each issue).
+- The developer commits changes to resolve the issue in the branch (mention the related issue in each commit).
+- The developer "deploys" the branch so that a tester can confirm functionality. This is most commonly done using a github gist. 
+- The developer creates a pull request, including a link to the examples for testing, with a note that will close the issue once the pull request is merged ([see details](https://github.com/blog/1506-closing-issues-via-pull-requests)). 
+- The developer assigns the issue(s) to a tester and the tester 
+
+Generally speaking, we use [github flow](https://guides.github.com/introduction/flow/) for larger projects.
 
 ##Phase 3 - Testing
 
@@ -43,5 +70,6 @@ The processes described here represent a baseline guidance for open source proje
 
 - Using JIRA instead of github issues is fairly common in larger projects that implement SCRUM/Agile methodologies. 
 - Several projects (like this one!) are primarily for documentation. These projects still use github, but generally do not have versioned releases. 
+- For small single-developer projects, we are considerably more flexible regarding the one-issue one-branch paradigm in described in github flow. In these projects, the developer might just create a single branch for all feature development in an upcoming version. 
 
 
