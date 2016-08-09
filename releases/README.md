@@ -15,7 +15,7 @@ Our open source projects use [semantic versioning](http://semver.org/). In short
 ##Github releases and milestones
 Releases, milestones and tags are all standard features in github. We implement them to track version follows: 
 - _Releases_ - Each version of a library gets a release, which ties the version to a snapshot of the source code (a commit). A    step-by-step guide to creating releases is [here](https://help.github.com/articles/creating-releases/). 
-- _Milestones_ - Each version of a library also gets a milestone. A milestone is used to tie a set of issues to an upcoming version of the software. A step-by-step guide to creating milestones is [here](https://help.github.com/articles/creating-releases/).
+- _Milestones_ - Each version of a library also gets a milestone. A milestone is used to tie a set of issues to an upcoming version of the software. A step-by-step guide to creating milestones is [here](https://help.github.com/articles/creating-and-editing-milestones-for-issues-and-pull-requests/).
 
 So, each version of our repositories gets both a milestone and a release. More detail about how releases, milestones and tags are used at Rho is given in the [workflow](#workflow) section. 
 
