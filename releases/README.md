@@ -41,12 +41,12 @@ Broadly speaking, work on a new version of a project occurs in 4 phases.
 Workflow details vary from project-to-project, but guidance for each phase is provided below.
 
 ##Phase 1 - Planning
-The team agrees on an approach for the planned changes and makes sure issues are created before coding begins.. 
+The team agrees on an approach for the planned changes and makes sure issues are created before coding begins.
 
 - Make a general plan for what features are going in to the next release. No need to get this perfect. You can update as you're working, but it's good to have the team agree on an approach. (**Required**)
-- Create issues describing the new features, and associate them with the milestone.If no issue exists, create one before commiting code. (**Required**)
+- Create issues describing the new features, and associate them with the milestone. If no issue exists, create one before committing code. (**Required**)
 - Draft a new release for the version, with an overview of the updates. Versions should be called `vX.X.X`. Make sure to mark the release as a draft until the work is done.  Make sure you're following the semantic versioning guidelines when picking the version number. (*Recommended*)
-- Create a milestone for the version, and assign the milestone to the relevant issues . The milestone should also be called `vX.X.X`. (*Recommended*)
+- Create a milestone for the version, and assign the milestone to the relevant issues. The milestone should also be called `vX.X.X`. (*Recommended*)
 
 ##Phase 2 - Development
 Once the team agrees on an approach and creates issues, the developer creates a new branch and updates the source code to implement new functionality.
@@ -61,7 +61,7 @@ Once the team agrees on an approach and creates issues, the developer creates a 
 ##Phase 3 - Testing
 New functionality is verified by an independent tester before release. 
 
-- Once a new feature is implemented, it should be independently tested before being merged in to `master`. Testing should be conductued by by someone other than the developer. (**Required**)
+- Once a new feature is implemented, it should be independently tested before being merged in to `master`. Testing should be conducted by someone other than the developer. (**Required**)
 - Testing requirements vary for each project, but it is important to define a workflow. A sample GitHub-only workflow, that can be modified as needed, is given below. (*Required*)
 
 Once all features for a new version are tested, we move to Phase 4, Deployment. 
@@ -93,7 +93,7 @@ Once all issues in a given milestone have passed testing, the new features are r
   6. Reviews the draft release notes, and update as needed, and publish the release.
   7. Save a snapshot of the new version to https://graphics.rhoworld.com/src/ following the steps below (__coming soon__)
 
-#Exeptions and Modifications
+#Exceptions and Modifications
 The processes described here represent a baseline guidance for open source projects at Rho, but project teams are encouraged to customize these methods as is appropriate for a given project. These customizations include: 
 
 - Using JIRA instead of GitHub issues is fairly common in larger projects that implement SCRUM/Agile methodologies. 
