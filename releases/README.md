@@ -41,7 +41,7 @@ Broadly speaking, work on a new version of a project occurs in 4 phases.
 Workflow details vary from project-to-project, but guidance for each phase is provided below.
 
 ##Phase 1 - Planning
-The team agrees on an approach for the planned changes and make sure issues are created before coding begins.. 
+The team agrees on an approach for the planned changes and makes sure issues are created before coding begins.. 
 
 - Make a general plan for what features are going in to the next release. No need to get this perfect. You can update as you're working, but it's good to have the team agree on an approach. (**Required**)
 - Create issues describing the new features, and associate them with the milestone.If no issue exists, create one before commiting code. (**Required**)
