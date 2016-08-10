@@ -51,9 +51,9 @@ The team agrees on an approach for the planned changes and makes sure issues are
 ##Phase 2 - Development
 Once the team agrees on an approach and creates issues, the developer creates a new branch and updates the source code to implement new functionality.
 
-- The developer creates a new branch for development work and notes the branch name on a comment in the issue(s). Please do not commit changes directly to the `master` branch, all new code should be committed to a new "feature branch". (**Required**).
-- If using GitHub issues, mention the related issue number in each commit (*Recommended*). 
-- Whenever possible, create a unit test for a new feature (*Recommended*)
+- The developer creates a new branch for development work and notes the branch name on a comment in the issue(s). Please do not commit changes directly to the `master` branch; all new code should be committed to a new "feature branch". (**Required**).
+- If using GitHub issues, mention the related issue number in each commit. (*Recommended*) 
+- Whenever possible, create a unit test for a new feature. (*Recommended*)
 - Run any existing unit tests on the feature branch before testing. (*Recommended*)
 - Make sure that the feature branch is up to date with the `master` branch before testing. (*Recommended*)
 - If applicable, make an example demonstrating new functionality. (*Recommended*)
@@ -64,13 +64,13 @@ New functionality is verified by an independent tester before release.
 - Once a new feature is implemented, it should be independently tested before being merged in to `master`. Testing should be conducted by someone other than the developer. (**Required**)
 - Testing requirements vary for each project, but it is important to define a workflow. A sample GitHub-only workflow, that can be modified as needed, is given below. (*Required*)
 
-Once all features for a new version are tested, we move to Phase 4, Deployment. 
-
 ### Sample Testing Workflow
  1. The developer creates a pull request once a feature branch is ready for testing.
- 2. Developer comments on the pull requests with an @ mention, letting the tester know the branch is ready and provides instructions about how to access the updates (e.g. links to a GitHub gist) 
+ 2. Developer comments on the pull requests with an @ mention, letting the tester know the branch is ready and provides instructions about how to access the updates (e.g. links to a GitHub gist). 
  3. The tester confirms the functionality or informs the developer about problems, via comments on the pull request. 
- 4. Issues are closed once testing is complete. This can be done automatically using [this process](https://github.com/blog/1506-closing-issues-via-pull-requests)
+ 4. Issues are closed once testing is complete. This can be done automatically using [this process](https://github.com/blog/1506-closing-issues-via-pull-requests).
+
+Once all features for a new version are tested, we move to Phase 4, Deployment. 
 
 ##Phase 4 - Deployment
 Once all issues in a given milestone have passed testing, the new features are ready to be released and deployed.
@@ -85,13 +85,13 @@ Once all issues in a given milestone have passed testing, the new features are r
   3. Make any updates to examples (or creates a new example to demonstrate new functionality and add it to the wiki).
   4. If there is a build process (like the once described [here](https://github.com/RhoInc/webcharts-wrapper-boilerplate/wiki)), make sure it is fully executed.
   5. If the package is being tracked via NPM, publish the new version following these steps:  
-   1. Confirm that you have the latest version of the repo checked out on your computer
-   2. Using a shell, browse to the root directory for the repo
-   3. Login to npm via npm adduser --always-auth (at Rho use the rhographics username and password)
-   4. Confirm that the package.json file is up to date (especially the version field)
-   5. Publish the package by typing npm publish
-  6. Reviews the draft release notes, and update as needed, and publish the release.
-  7. Save a snapshot of the new version to https://graphics.rhoworld.com/src/ following the steps below (__coming soon__)
+   1. Confirm that you have the latest version of the repo checked out on your computer.
+   2. Using a shell, browse to the root directory for the repo.
+   3. Login to npm via npm adduser --always-auth (at Rho use the rhographics username and password).
+   4. Confirm that the package.json file is up to date (especially the version field).
+   5. Publish the package by typing npm publish.
+  6. Review the draft release notes, update as needed, and publish the release.
+  7. Save a snapshot of the new version to https://graphics.rhoworld.com/src/ following the steps below (__coming soon__).
 
 #Exceptions and Modifications
 The processes described here represent a baseline guidance for open source projects at Rho, but project teams are encouraged to customize these methods as is appropriate for a given project. These customizations include: 
