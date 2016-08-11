@@ -1,8 +1,8 @@
-#Overview
+#Overview (Development Plan)
 
 This page outlines a standard workflow for updating Rho's Open Source projects. The process defined here is implemented entirely in GitHub. 
 
-#Versions
+#Versions (Configuration Management)
 ##Semantic Versioning
 Our open source projects use [semantic versioning](http://semver.org/). In short: 
 
