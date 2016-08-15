@@ -113,7 +113,6 @@ Users should also review some of our existing open source projects:
 
 - [Webcharts](https://github.com/RhoInc/Webcharts) - A javascript library with a multi-page wiki and more than 20 releases.
 - [SAS Axis Macro](https://github.com/RhoInc/sas-axismacro) - A SAS macro for automating the selection of axis ranges for continuous variables.
-- [CASI Minimally Important Difference Simulation](https://github.com/RhoInc/CASI_MID) - Supplemental materials and code giving details about a statistical simulation conducted in support of a manuscript submission.
 
 ## Basic Required Content
 
