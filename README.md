@@ -166,7 +166,7 @@ Sure! Check out [this link](https://opensource.com/business/14/12/8-ways-contrib
 
 ## What is Rho's preferred license for open source projects?
 
-The MIT license.
+The [MIT license](https://opensource.org/licenses/MIT).
 
 ## Answers coming soon
 - What are the costs and drawbacks of open source development?
