@@ -38,5 +38,10 @@ The process for planning, developing, testing and deploying a new version of a r
 7. Once testing is complete, the dev branch/pull request can be merged in to master. 
 8. The wiki should be updated to document new functionality. 
 9. Publish release notes
-10. Publish the renderer on npm
+10. If the package is being tracked via NPM, publish the new version following these steps:  
+   1. Confirm that you have the latest version of the repo checked out on your computer.
+   2. Using a shell, browse to the root directory for the repo.
+   3. Login to npm via npm adduser --always-auth (at Rho use the rhographics username and password).
+   4. Confirm that the package.json file is up to date (especially the version field).
+   5. Publish the package by typing npm publish.
 
