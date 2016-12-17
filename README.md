@@ -65,9 +65,9 @@ If you think your project would be a good candidate for open source release, con
 # Workflows
 
 Details regarding suggested workflows for open source development at Rho are documented here:
-- [Open Source Committee](./workflow/OpenSourceCommittee)
-- [Release](./workflow/Releases)
-- [Issues](./workflow/Issues)  
+- [Open Source Committee](workflow/opensourcecommittee/README.md)
+- [Release](workflow/releases/README.md)
+- [Issues](workflow/issues/README.md)  
 
 # Content Guidelines and Resources
 
