@@ -1,5 +1,5 @@
 #Issue workflow
-This page outlines a workflow for working on issues in github. Note that this process is almost always completed within the context of the [release workflow]() The process defined here is implemented entirely in GitHub, and is in use with several of Rho's repository focusing on interactive data visualization.
+This page outlines a workflow for working on issues in github. Note that this process is almost always completed within the context of the [release workflow](https://github.com/RhoInc/open-source-handbook/workflow/releases/README.md) The process defined here is implemented entirely in GitHub, and is in use with several of Rho's repository focusing on interactive data visualization.
 
 
 #Github Issues
