@@ -207,7 +207,4 @@ Sure! Check out [this link](https://opensource.com/business/14/12/8-ways-contrib
 
 The [MIT license](https://opensource.org/licenses/MIT).
 
-## Answers coming soon
-- What are the costs and drawbacks of open source development?
-- Is this like data sharing? 
-- What types of code are appropriate for open source?
+Licenses should be copyrighted for the year the tool is released, and any subsequent years that see a release.  For example, v1.0 of a tool was released in 2015, but has not had any subsequent updates, use "Copyright (c) 2015 Rho Inc."  However, if that same tool had a subsequent release of v1.1, v1.2, and v2.0 in 2016, use "Copyright (c) 2015-2016 Rho Inc." 
