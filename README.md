@@ -208,3 +208,34 @@ Sure! Check out [this link](https://opensource.com/business/14/12/8-ways-contrib
 The [MIT license](https://opensource.org/licenses/MIT).
 
 Licenses should be copyrighted for the year the tool is released, and any subsequent years that see a release.  For example, v1.0 of a tool was released in 2015, but has not had any subsequent updates, use "Copyright (c) 2015 Rho Inc."  However, if that same tool had a subsequent release of v1.1, v1.2, and v2.0 in 2016, use "Copyright (c) 2015-2016 Rho Inc." 
+
+## How should I give credit for contributions and borrowed content in my project?
+
+Open source can be confusing when it comes to intellectual property, but luckily there are a few ways to accredit content. First, GitHub keeps an audit trail for commits made to your repo by other users, keeping track of who has worked on the project. While that list does capture the work that has been done, it is also good practice to include a list of contributors on the bottom of the first page in your wiki. This list should capture external collaborators, links to borrowed content, and attributions for repo inspiration. When copying and pasting code in the repo itself, it is best practice to include a link to the content's original source in a comment.
+
+## When editing a wiki, can I edit it online directly or should I make a local copy and push the edits to master when I'm done?
+
+According to the Open Source Committee, it is preferred that you clone a local copy if you are making significant changes to your wiki to avoid potential confusion with your audience. If you opt to make a minor change to your wiki, you can do it directly on the wiki, but please include the following note, "This wiki is in development", while you work.
+
+## What should I name my repo?
+
+According to GitHub's Git Style Guide and the precedence set here at Rho, the following are considered best practices for naming a repo:
+- General
+ * Use short, descriptive names
+ * Use dashes to separate words
+ * Use lowercase throughout
+- R
+ * Avoid hyphens
+ * Match project name to package 
+- sas
+ * Use sas-"name" to be consistent with existing sas repos
+		
+Additionally, ideal repo names are:
+- Descriptive
+- Readable
+- Consistent
+- Contextual
+- Future-friendly
+- Extensible
+- Reusable
+
