@@ -211,11 +211,11 @@ Licenses should be copyrighted for the year the tool is released, and any subseq
 
 ## How should I give credit for contributions and borrowed content in my project?
 
-Open source can be confusing when it comes to intellectual property, but luckily there are a few ways to accredit content. First, GitHub keeps an audit trail for commits made to your repo by other users, keeping track of who has worked on the project. While that list does capture the work that has been done, it is also good practice to include a list of contributors on the bottom of the first page in your wiki. This list should capture external collaborators, links to borrowed content, and attributions for repo inspiration. When copying and pasting code in the repo itself, it is best practice to include a link to the content's original source in a comment.
+Open source can be confusing when it comes to intellectual property, but luckily there are a few ways to credit content. First, GitHub keeps an audit trail for commits made to your repo by other users, keeping track of who has worked on the project. While that list does capture the work that has been done, it is also good practice to include a list of contributors on the bottom of the first page in your wiki. This list should capture external collaborators, links to borrowed content, and attributions for repo inspiration. When copying and pasting code in the repo itself, it is best practice to include a link to the content's original source in a comment.
 
 ## When editing a wiki, can I edit it online directly or should I make a local copy and push the edits to master when I'm done?
 
-According to the Open Source Committee, it is preferred that you clone a local copy if you are making significant changes to your wiki to avoid potential confusion with your audience. If you opt to make a minor change to your wiki, you can do it directly on the wiki, but please include the following note, "This wiki is in development", while you work.
+It is preferred that you clone a local copy if you are making significant changes to your wiki to avoid potential confusion with your audience. If you opt to make a minor change to your wiki, you can do it directly on the wiki, but please include the following note, "This wiki is in development" to the top of the wiki, just below the title, while you work.
 
 ## What should I name my repo?
 
@@ -227,7 +227,7 @@ According to GitHub's Git Style Guide and the precedence set here at Rho, the fo
 - R
  * Avoid hyphens
  * Match project name to package 
-- sas
+- SAS
  * Use sas-"name" to be consistent with existing sas repos
 		
 Additionally, ideal repo names are:
