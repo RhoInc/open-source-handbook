@@ -239,3 +239,18 @@ Additionally, ideal repo names are:
 - Extensible
 - Reusable
 
+## What are the costs and drawbacks of open source development?
+
+Some of the biggest concerns with open source have to do with the fact that the tools are freely available, which impacts both developers and users.
+* Developers - you may not get any direct financial compensation for your work.  [Several successful business models](https://handsontable.com/blog/articles/5-successful-business-models-for-web-based-open-source-projects) exist for open source tools, but unless you're actively implementing such an approach, there's little way to make money off ot it. 
+* Users - the fact that the tools are free means there may be limited incentive for the developer to maintain the tools or provide technical support if you find problems. The best way to find reliable tools is look for tools that are have a lot of forks, are in continual development (have frequent releases), or those that have a large community of contributors.
+
+Check out [this brief article](http://entrepreneurhandbook.co.uk/open-source-software/), which lists a few other pros and cons of working with open source software.
+
+## Is this like data sharing?
+
+Sort of. The concepts of open source and open data are very similar.  They are both predicated on the ideas of transparency, free use, and community benefit.  Open source sharing tends to be focused on sharing code and related resources (e.g., documentation) whereas data sharing is, as the name suggests, more focused on sharing a data set.  One important disctinction for data sharing, especially for data that comes from humans, is that there are important rules that dictate which data can be shared.  For example, the [Health Insurance Portability and Acountability Act (HIPAA)](https://www.hhs.gov/hipaa/) places strict rules on protecting personal health information and preventing this information from being shared without express permission of individuals and/or special considerations to de-identify and anonymize data so records cannot be tied back to an individual.
+
+## What types of code are appropriate for open source
+
+Any code that you create can be shared - software, web-based tools, statistical and analytical programs, database management programs, APIs, etc. If you code it, you can share it.  
