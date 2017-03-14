@@ -150,15 +150,15 @@ It is preferred that you clone a local copy if you are making significant change
 ## What should I name my repo?
 
 According to GitHub's Git Style Guide and the precedence set here at Rho, the following are considered best practices for naming a repo:
-- General
- * Use short, descriptive names
- * Use dashes to separate words
- * Use lowercase throughout
-- R
- * Avoid hyphens
- * Match project name to package 
-- SAS
- * Use sas-"name" to be consistent with existing sas repos
+* General
+  * Use short, descriptive names
+  * Use dashes to separate words
+  * Use lowercase throughout
+* R
+  * Avoid hyphens
+  * Match project name to package 
+* SAS
+  * Use sas-"name" to be consistent with existing sas repos
 		
 Additionally, ideal repo names are:
 - Descriptive
