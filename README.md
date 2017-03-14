@@ -181,6 +181,10 @@ Check out [this brief article](http://entrepreneurhandbook.co.uk/open-source-sof
 
 Sort of. The concepts of open source and open data are very similar.  They are both predicated on the ideas of transparency, free use, and community benefit.  Open source sharing tends to be focused on sharing code and related resources (e.g., documentation) whereas data sharing is, as the name suggests, more focused on sharing a data set.  One important disctinction for data sharing, especially for data that comes from humans, is that there are important rules that dictate which data can be shared.  For example, the [Health Insurance Portability and Acountability Act (HIPAA)](https://www.hhs.gov/hipaa/) places strict rules on protecting personal health information and preventing this information from being shared without expressed permission of individuals and/or special considerations to de-identify and anonymize data so records cannot be tied back to an individual.
 
-## What types of code are appropriate for open source
+## What types of code are appropriate for open source?
 
 Any code that you create can be shared - software, web-based tools, statistical and analytical programs, database management programs, APIs, etc. If you code it, you can share it.  
+
+## When does open source code need to be validated?
+
+Open source code that is used at Rho (whether created by Rho or accessed from a third party) needs to follow Rho’s procedures for software development and validation, as outlined in the company's Software Development (SD) SOPs.  If you have questions regarding these processes or the requirements for using open source software, please email ‘Validation Services Support’.
