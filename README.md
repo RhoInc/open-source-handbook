@@ -105,6 +105,106 @@ No private or confidential data should be included in an open source project or 
   - [data.gov](https://www.data.gov/)
   - Reddit ( [1](https://www.reddit.com/r/datasets/top/), [2](https://www.reddit.com/r/opendata/top/))
 
+## Common Marks and Formatting Changes
+### Changes
+
+With Github's change to CommonMark as the renderer of choice for markdown files, the following changes will be necessary in your markdown files.
+
+### Sublists
+
+For unordered lists, things still work as before. You indent two spaces for each sublevel that you want to see.
+
+```
+* first level
+  * second level
+  * more second
+    * third level
+* next item
+* final item
+```
+* first level
+  * second level
+  * more second
+    * third level
+* next item
+* final item
+
+
+For ordered lists, two spaces used to work.
+```
+1. first level
+  1. second level
+  1. more second
+    1. third level
+1. next item
+1. final item
+```
+Unfortunately, with the new renderer, the above markdown produces an ordinary list.
+
+1. first level
+  1. second level
+  1. more second
+    1. third level
+1. next item
+1. final item
+
+The workaround is to put three spaces for each level.
+```
+1. first level
+   1. second level
+   1. more second
+      1. third level
+1. next item
+1. final item
+```
+The logic is that the text "first level" is indented three spaces (numeral, period, space), so subitems of "first level" need to be indented three spaces.
+
+1. first level
+   1. second level
+   1. more second
+      1. third level
+1. next item
+1. final item
+
+### Relative URLs
+
+Relative URLs still work, unless they have spaces in them. This will not work.
+
+```
+[Getting Started](Getting Started)
+```
+
+However, this will work.
+
+```
+[Getting Started](Getting-Started)
+```
+
+Note the addition of the dash. Github replaces spaces with dashes when constructing URLs. Github does some other substitutions for certain special characters (e.g., [ becomes %5B). The safest approach seems to be to copy the tail end of the relative URL directly from the address bar. Note that what you see in the address bar is not actually what you get in the buffer. The address bar converts %5B to [ when rendering the URL. You actually need to use Copy/Paste to achieve the desired results.
+
+### Within-page TOC
+
+When creating a within-page TOC, you begin by putting the following at the top of the page.
+```
+1. <a href="#Overview">Overview</a>
+```
+Further down the page you then put a landing place for the link.
+```
+<a name="Overview"/>
+```
+It used to work to have the subsequent header on the very next line of the MD file.
+```
+<a name="Overview"/>
+## Overview
+```
+However, this no longer preserves the header2 formatting of the second line.
+
+You now have to add a blank line between the two lines to get what you're after.
+```
+<a name="Overview"/>
+
+## Overview
+```
 
 
 ## GitHub and other Tools
