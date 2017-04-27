@@ -1,8 +1,8 @@
-#Release Workflow
+# Release Workflow
 
 This page outlines a workflow for releasing new repository versions in GitHub. The process defined here is implemented entirely in GitHub, and is in use with several of Rho's repository focusing on interactive data visualization. 
 
-#Semantic Versioning
+## Semantic Versioning
 These Projects use [semantic versioning](http://semver.org/). In short: 
 
 > Given a version number MAJOR.MINOR.PATCH, increment the:
@@ -11,17 +11,17 @@ These Projects use [semantic versioning](http://semver.org/). In short:
 > - MINOR version when you add functionality in a backwards-compatible manner, and
 > - PATCH version when you make backwards-compatible bug fixes.
 
-#GitHub releases
+## GitHub releases
 Releases are a standard feature in GitHub. We implement them to track version as follows: 
 - _Releases_ - Each version of a library gets a release. The release ties the version to a snapshot of the source code (a commit). A    step-by-step guide to creating releases is [here](https://help.github.com/articles/creating-releases/). 
 - _Milestones_  - Milestones can be used to tie a set of issues to an upcoming version of the repository. A step-by-step guide to creating milestones is [here](https://help.github.com/articles/creating-and-editing-milestones-for-issues-and-pull-requests/).
 
 More details about how releases, milestones and tags are used are given in the [workflow](#release-workflow) section below. 
 
-#Issues
+## Issues
 GitHub issues and pull requests are used to track the work done in a release. See the [Issues workflow]() for more detail.
 
-#Release Workflow
+## Release Workflow
 The process for planning, developing, testing and deploying a new version of a repo is outlined below. 
 
 1. Create a milestone with the version number for the release (you can always tweak the version number later if the scope changes). 
