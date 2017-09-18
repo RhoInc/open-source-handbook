@@ -1,15 +1,15 @@
-#Issue workflow
-This page outlines a workflow for working on issues in github. Note that this process is almost always completed within the context of the [release workflow](https://github.com/RhoInc/open-source-handbook/workflow/releases/README.md) The process defined here is implemented entirely in GitHub, and is in use with several of Rho's repositories focusing on interactive data visualization.
+# Issue workflow
+This page outlines a workflow for working on issues in github. Note that this process is almost always completed within the context of the [release workflow](https://github.com/RhoInc/open-source-handbook/blob/master/workflow/releases/README.md) The process defined here is implemented entirely in GitHub, and is in use with several of Rho's repositories focusing on interactive data visualization.
 
 
-#Github Issues
+# Github Issues
 Development tasks (new features, technical tasks, bugs, etc.) should be tracked using github issues. The details about issue management vary from project to project, but, at a minimum, we track the following:
 - Name
 - Description
 - Release version - "Milestone" in GitHub
 - Assignee
 
-#General Guidance
+# General Guidance
 We generally use the following guidelines for issue work: 
 - The project team should thoroughly outline the task details in the issue and the issue should be QCed by another member of the team.
 - Developers should prioritize issues in upcoming releases. 
@@ -17,8 +17,8 @@ We generally use the following guidelines for issue work:
 - Requirement discussion should happen on the issue, technical discussion should happen on pull requests, but some overlap is fine. 
 - Requirements should be clearly documented in the issue _before_ starting to code. 
 
-#Workflow
-Again, issue work is generally nested in the [release workflow](). Once an issue has a release and a developer assigned, we generally follow the workflow below: 
+# Workflow
+Again, issue work is generally nested in the [release workflow](https://github.com/RhoInc/open-source-handbook/blob/master/workflow/releases/README.md). Once an issue has a release and a developer assigned, we generally follow the workflow below: 
 
 1. Discuss any requirement/implementation questions on the issue. 
 2. Once approach is clear, Dev creates new branches/PRs as needed for the issue. Issue branches should be merged in to the dev branch (e.g. `v1.3.0`), _not_ directly in to master. Dev should be sure to link the issue and the PR. 
