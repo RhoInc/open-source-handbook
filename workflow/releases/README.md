@@ -19,7 +19,7 @@ Releases are a standard feature in GitHub. We implement them to track version as
 More details about how releases, milestones and tags are used are given in the [workflow](#release-workflow) section below. 
 
 ## Issues
-GitHub issues and pull requests are used to track the work done in a release. See the [Issues workflow]() for more detail.
+GitHub issues and pull requests are used to track the work done in a release. See the [Issues workflow](https://github.com/RhoInc/open-source-handbook/blob/master/workflow/issues/README.md) for more detail.
 
 ## Release Workflow
 The process for planning, developing, testing and deploying a new version of a repo is outlined below. 
@@ -33,7 +33,7 @@ The process for planning, developing, testing and deploying a new version of a r
  - Use git to create a new dev branch named after the version (`git checkout -b "v1.3.0"` and then `git branch "v1.3.0"`)
  - Change the version number in package.json and commit the change to the new branch (`git commit -a -m "changed to v1.3.0"` and `git push --set-upstream origin v1.3.0`)
 4. Add the pull request to the GitHub project for tracking purposes - [example project](https://github.com/orgs/RhoInc/projects/1)
-5. Begin to work on the release. As issues are completed, they should be merged into the dev branch and any new functionality should be tested. For more details about working on issues, see the [issue workflow](https://github.com/RhoInc/open-source-handbook/tree/workflows/workflow/issues)
+5. Begin to work on the release. As issues are completed, they should be merged into the dev branch and any new functionality should be tested. For more details about working on issues, see the [issue workflow](https://github.com/RhoInc/open-source-handbook/blob/master/workflow/issues/README.md)
 6. Once all issues are resolved, the dev branch should be reviewed. The exact review process may vary from project to project, but options include: Code review, automated tests, regression testing, etc.
 7. Once testing is complete, the dev branch/pull request can be merged in to master. 
 8. The wiki should be updated to document new functionality. 
