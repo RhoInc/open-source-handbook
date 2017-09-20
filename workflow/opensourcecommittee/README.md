@@ -53,7 +53,7 @@ Once the content is ready for initial release, the Project Owner notifies the Op
 
 6. Owner has confirmed that there is no confidential information in the repo
 
-7. Code review been completed.
+7. Code review has been completed.
 
 ### Phase 4 – Maintenance
 
@@ -77,4 +77,4 @@ The Project Owner is responsible for maintaining the project, which includes res
 
 7. Owner has confirmed that there is no confidential information in the repo
 
-8. Code review been completed.
+8. Code review has been completed.
