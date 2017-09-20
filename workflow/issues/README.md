@@ -13,7 +13,7 @@ Development tasks (new features, technical tasks, bugs, etc.) should be tracked 
 We generally use the following guidelines for issue work: 
 - The project team should thoroughly outline the task details in the issue and the issue should be QCed by another member of the team.
 - Developers should prioritize issues in upcoming releases. 
-- Each issue should have its own branch/pull requests. Very similar issues can be grouped in a branch/PR as needed as long as it's well documented. The pull request should always reference the issue(s) and vice-versa. This is [easy in github](https://github.com/blog/831-issues-2-0-the-next-generation) <- link to guide
+- Each issue should have its own branch/pull requests. Very similar issues can be grouped in a branch/PR as needed as long as it's well documented. The pull request should always reference the issue(s) and vice-versa. This is [easy in github](https://github.com/blog/831-issues-2-0-the-next-generation).
 - Requirement discussion should happen on the issue, technical discussion should happen on pull requests, but some overlap is fine. 
 - Requirements should be clearly documented in the issue _before_ starting to code. 
 
