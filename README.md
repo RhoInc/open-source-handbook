@@ -4,7 +4,7 @@
 
 This library provides information about open source software development at [Rho](http://www.rhoworld.com). We provide a brief overview of Rho's philosopy regarding open source development, and then give guidelines for Rho staff and external contributors working on Rho's open source projects. 
 
-Planned updates to this document are tracked as [github issues](https://github.com/RhoInc/open-source-guide/issues). Questions can be submitted on the issues page or via [email](mailto:opensource@rhoworld.com).
+Planned updates to this document are tracked as [GitHub issues](https://github.com/RhoInc/open-source-guide/issues). Questions can be submitted on the issues page or via [email](mailto:opensource@rhoworld.com).
 
 ## What is open source?
 
@@ -20,7 +20,7 @@ The [Open Source Initiative](https://opensource.org/) has a good [definition](ht
 
 ## What is currently being done at Rho?
 
-More than a dozen open source projects are publicly available on [our GitHub page](https://github.com/RhoInc), and many more are under development. Contact [opensource@rhoworld.com](mailto:opensource@rhoworld.com) if you have questions or want to get involved.
+More than 40 open source projects are publicly available on [our GitHub page](https://github.com/RhoInc), and many more are under development. Contact [opensource@rhoworld.com](mailto:opensource@rhoworld.com) if you have questions or want to get involved.
 
 The rest of this document provides more details about the strategic benefits of open source projects and provides guidelines for how they should be created and maintained at Rho.
 
