@@ -31,16 +31,16 @@ The process for planning, developing, testing and deploying a new version of a r
  - Tag each issue with the milestone.
  - It's good practice to review all existing issues for the project (i.e. the backlog) at this time as well.
  - Assign all issues to a developer
-3. Create a pull request for the new version
+4. Create a pull request for the new version
  - Use git to create a new dev branch named after the version (`git checkout -b "v1.3.0"` and then `git branch "v1.3.0"`)
  - Change the version number in package.json and commit the change to the new branch (`git commit -a -m "changed to v1.3.0"` and `git push --set-upstream origin v1.3.0`)
-4. Add the pull request to the GitHub project for tracking purposes - [example project](https://github.com/orgs/RhoInc/projects/1)
-5. Begin to work on the release. As issues are completed, they should be merged into the dev branch and any new functionality should be tested. For more details about working on issues, see the [issue workflow](https://github.com/RhoInc/open-source-handbook/blob/master/workflow/issues/README.md)
-6. Once all issues are resolved, the dev branch should be reviewed. The exact review process may vary from project to project, but options include: Code review, automated tests, regression testing, etc.
-7. Once testing is complete, the dev branch/pull request can be merged in to master. 
-8. The wiki should be updated to document new functionality. 
-9. Publish release notes
-10. If the package is being tracked via NPM, publish the new version following these steps:  
+5. Add the pull request to the GitHub project for tracking purposes - [example project](https://github.com/orgs/RhoInc/projects/1)
+6. Begin to work on the release. As issues are completed, they should be merged into the dev branch and any new functionality should be tested. For more details about working on issues, see the [issue workflow](https://github.com/RhoInc/open-source-handbook/blob/master/workflow/issues/README.md)
+7. Once all issues are resolved, the dev branch should be reviewed. The exact review process may vary from project to project, but options include: Code review, automated tests, regression testing, etc.
+8. Once testing is complete, the dev branch/pull request can be merged in to master. 
+9. The wiki should be updated to document new functionality. 
+10. Publish release notes
+11. If the package is being tracked via NPM, publish the new version following these steps:  
    1. Confirm that you have the latest version of the repo checked out on your computer.
    2. Using a shell, browse to the root directory for the repo.
    3. Login to npm via npm adduser --always-auth (at Rho use the rhographics username and password).
