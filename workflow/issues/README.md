@@ -1,7 +1,6 @@
 # Issue workflow
 This page outlines a workflow for working on issues in github. Note that this process is almost always completed within the context of the [release workflow](https://github.com/RhoInc/open-source-handbook/blob/master/workflow/releases/README.md) The process defined here is implemented entirely in GitHub, and is in use with several of Rho's repositories focusing on interactive data visualization.
 
-
 # Github Issues
 Development tasks (new features, technical tasks, bugs, etc.) should be tracked using github issues. The details about issue management vary from project to project, but, at a minimum, we track the following:
 - Name
@@ -28,3 +27,4 @@ Again, issue work is generally nested in the [release workflow](https://github.c
 6. Hopefully test steps are clear from comments on issue/PR, but tester asks questions in comments as needed. In complicated cases, testers should document test steps in a comment on the PR.
 7. Test steps should be approved by a dev before the tester runs the test on the issue.
 8. Once testing passes, tester @comments dev. Dev merges pull request in to dev branch for the release. 
+9. When all issue have been tested and the dev branch is ready to merge into master, the tester performs regression testing. these tests cover all functionality and are located in the technical documentation page of each repository's wiki.
