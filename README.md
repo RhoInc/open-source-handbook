@@ -42,7 +42,7 @@ When possible, code should be made public.
 
 *Publication* – Reproducibility is an increasingly important topic in scientific journals, with recent meta-analyses showing that a large percentage of results can&#39;t be reproduced. As a result, many top journals are now recommending or requiring data and/or code to be submitted along with manuscripts.
 
-*Policy* – [The Open Government Initiative](https://www.whitehouse.gov/open/) which began in 2009 is pushing for more openness and transparency in government, and recently led to a draft [federal source code policy](https://sourcecode.cio.gov/) that would mandate code sharing for federally funded research.
+*Policy* – [The Open Government Initiative](https://open.obamawhitehouse.archives.gov/) which began in 2009 is pushing for more openness and transparency in government, and recently led to a draft [federal source code policy](https://sourcecode.cio.gov/) that would mandate code sharing for federally funded research.
 
 *Professional Development* – Working on an open source project can be a form of on-the-job professional development. It is a great way to keep up with external innovations and open source projects serve as great "work samples" on a resume.
 
