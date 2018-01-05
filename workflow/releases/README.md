@@ -24,11 +24,13 @@ GitHub issues and pull requests are used to track the work done in a release. Se
 ## Release Workflow
 The process for planning, developing, testing and deploying a new version of a repo is outlined below. 
 
-1. Create a milestone with the version number for the release (you can always tweak the version number later if the scope changes). 
-2. Populate the milestone with new and existing issues. 
+1. Create a repository with a title that reflects the intended content that the repo will contain
+2. Create a milestone with the version number for the release (you can always tweak the version number later if the scope changes). 
+3. Populate the milestone with new and existing issues. 
  - Create new issues as needed. 
  - Tag each issue with the milestone.
  - It's good practice to review all existing issues for the project (i.e. the backlog) at this time as well.
+ - Assign all issues to a developer
 3. Create a pull request for the new version
  - Use git to create a new dev branch named after the version (`git checkout -b "v1.3.0"` and then `git branch "v1.3.0"`)
  - Change the version number in package.json and commit the change to the new branch (`git commit -a -m "changed to v1.3.0"` and `git push --set-upstream origin v1.3.0`)
