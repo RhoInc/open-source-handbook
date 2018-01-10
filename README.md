@@ -2,7 +2,7 @@
 
 ## Overview
 
-This library provides information about open source software development at [Rho](http://www.rhoworld.com). We provide a brief overview of Rho's philosopy regarding open source development, and then give guidelines for Rho staff and external contributors working on Rho's open source projects. 
+This library provides information about open source software development at [Rho](http://www.rhoworld.com). We provide a brief overview of Rho's philosophy regarding open source development, and then give guidelines for Rho staff and external contributors working on Rho's open source projects. 
 
 Planned updates to this document are tracked as [GitHub issues](https://github.com/RhoInc/open-source-guide/issues). Questions can be submitted on the issues page or via [email](mailto:opensource@rhoworld.com).
 
@@ -14,7 +14,7 @@ The [Open Source Initiative](https://opensource.org/) has a good [definition](ht
 
 ## What is Rho's position on open source code sharing?
 
-[Rho](http://www.rhoworld.com/) is in favor of open source code sharing. An open source approach takes the work done at Rho and broadens its reach. That's a great thing since it falls in line with our our core purpose: 
+[Rho](http://www.rhoworld.com/) is in favor of open source code sharing. An open source approach takes the work done at Rho and broadens its reach. That's a great thing since it falls in line with our core purpose: 
 
 > To improve health, extend life, and enhance quality of life through corporate and research excellence.
 
@@ -81,7 +81,7 @@ Users should be familiar with open source development in general, GitHub in part
 
 Users should also review some of our existing open source projects:
 
-- [Webcharts](https://github.com/RhoInc/Webcharts) - A javascript library with a multi-page wiki and more than 20 releases.
+- [Webcharts](https://github.com/RhoInc/Webcharts) - A JavaScript library with a multi-page wiki and more than 20 releases.
 - [SAS Axis Macro](https://github.com/RhoInc/sas-axismacro) - A SAS macro for automating the selection of axis ranges for continuous variables.
 
 ## Basic Required Content
@@ -91,13 +91,13 @@ Several types of content are required for Rho's open source projects. In particu
 - *Code* – The source code for your program should be posted to GitHub and should follow programming best practices.
 - *Documentation* – Stand-alone documentation should be included in the form of a README.md and/or a wiki. Documentation should include instructions on how to use the library, requirements, and configurable settings.
 - *Examples* – Stand-alone examples that the user can reproduce independently should be included, demonstrating the primary use cases for the library; these can be included as part of the wiki or as [GitHub gists](https://help.github.com/articles/about-gists/). Examples should follow the data guidelines given below.
-- *License* – A license.md should be inluded in for all projects. Rho's preferred license for open source software is the [MIT license](https://opensource.org/licenses/MIT).
+- *License* – A license.md should be included in for all projects. Rho's preferred license for open source software is the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Data guidelines
 
 **Use an abundance of caution when sharing data. Review all Rho SOPs and policies, which take precedence over this document. Contact [opensource@rhoworld.com](mailto:opensource@rhoworld.com) if you have any questions.**
 
-No private or confidential data should be included in an open source project or it's associated examples. Guidelines include:
+No private or confidential data should be included in an open source project or its associated examples. Guidelines include:
 
 - No private or confidential data
 - No personal identifiers
@@ -108,7 +108,7 @@ No private or confidential data should be included in an open source project or 
 
 ## Common Marks and Formatting
 
-With Github's adoption of CommonMark as the renderer of choice for markdown files, use the following formatting in your markdown files.
+With GitHub's adoption of CommonMark as the renderer of choice for markdown files, use the following formatting in your markdown files.
 
 ### Sublists
 
@@ -162,7 +162,7 @@ However, this will work.
 [Getting Started](Getting-Started)
 ```
 
-Note the addition of the dash. Github replaces spaces with dashes when constructing URLs. Github does some other substitutions for certain special characters (e.g., [ becomes %5B). The safest approach seems to be to copy the tail end of the relative URL directly from the address bar. Note that what you see in the address bar is not actually what you get in the buffer. The address bar converts %5B to [ when rendering the URL. You actually need to use Copy/Paste to achieve the desired results.
+Note the addition of the dash. GitHub replaces spaces with dashes when constructing URLs. GitHub does some other substitutions for certain special characters (e.g., [becomes %5B). The safest approach seems to be to copy the tail end of the relative URL directly from the address bar. Note that what you see in the address bar is not actually what you get in the buffer. The address bar converts %5B to [when rendering the URL. You actually need to use Copy/Paste to achieve the desired results.
 
 ### Within-page Table Of Contents
 
@@ -202,7 +202,7 @@ The exact process used to create and maintain a project can vary as long as the 
 
 ## What are my obligations after sharing my project?
 
-One of the benefits of sharing a project open source is it allows others to refine, adapt, and improve upon your code.  When you release open source, you should be willing to engage other users if they have questions, identify errors, or propose changes to your code. For the majority of projects, this is a very minimal time commitmen, but you should be prepared to interact with other users if they are interested in your tool. It is also a good idea to review your project over time to see if you could enhance it or improve upon it. As new technologies become available, you may want to update your code to keep it relevant or to add new features.
+One of the benefits of sharing a project open source is it allows others to refine, adapt, and improve upon your code.  When you release open source, you should be willing to engage other users if they have questions, identify errors, or propose changes to your code. For the majority of projects, this is a very minimal time commitment, but you should be prepared to interact with other users if they are interested in your tool. It is also a good idea to review your project over time to see if you could enhance it or improve upon it. As new technologies become available, you may want to update your code to keep it relevant or to add new features.
 
 ## I'm not a programmer. Can I contribute to open source projects?
 
@@ -247,14 +247,14 @@ Additionally, ideal repo names are:
 ## What are the costs and drawbacks of open source development?
 
 Some of the biggest concerns with open source have to do with the fact that the tools are freely available, which impacts both developers and users.
-* Developers - you may not get any direct financial compensation for your work.  [Several successful business models](https://handsontable.com/blog/articles/5-successful-business-models-for-web-based-open-source-projects) exist for open source tools, but unless you're actively implementing such an approach, there's little way to make money off ot it. 
+* Developers - you may not get any direct financial compensation for your work.  [Several successful business models](https://handsontable.com/blog/articles/5-successful-business-models-for-web-based-open-source-projects) exist for open source tools, but unless you're actively implementing such an approach, there's little way to make money off of it. 
 * Users - the fact that the tools are free means there may be limited incentive for the developer to maintain the tools or provide technical support if you find problems. The best way to find reliable tools is look for tools that are have a lot of forks, are in continual development (have frequent releases), or those that have a large community of contributors.
 
 Check out [this brief article](http://entrepreneurhandbook.co.uk/open-source-software/), which lists a few other pros and cons of working with open source software.
 
 ## Is this like data sharing?
 
-Sort of. The concepts of open source and open data are very similar.  They are both predicated on the ideas of transparency, free use, and community benefit.  Open source sharing tends to be focused on sharing code and related resources (e.g., documentation) whereas data sharing is, as the name suggests, more focused on sharing a data set.  One important disctinction for data sharing, especially for data that comes from humans, is that there are important rules that dictate which data can be shared.  For example, the [Health Insurance Portability and Acountability Act (HIPAA)](https://www.hhs.gov/hipaa/) places strict rules on protecting personal health information and preventing this information from being shared without expressed permission of individuals and/or special considerations to de-identify and anonymize data so records cannot be tied back to an individual.
+Sort of. The concepts of open source and open data are very similar.  They are both predicated on the ideas of transparency, free use, and community benefit.  Open source sharing tends to be focused on sharing code and related resources (e.g., documentation) whereas data sharing is, as the name suggests, more focused on sharing a data set.  One important distinction for data sharing, especially for data that comes from humans, is that there are important rules that dictate which data can be shared.  For example, the [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/) places strict rules on protecting personal health information and preventing this information from being shared without expressed permission of individuals and/or special considerations to de-identify and anonymize data so records cannot be tied back to an individual.
 
 ## What types of code are appropriate for open source?
 
