@@ -1,6 +1,14 @@
 # Hosting a Webpage Locally with Python
 Sometimes hosting a local copy of a webpage is helpful for testing or development tasks. Follow the steps below to host a page in Windows 10 using Python. 
 
+## Download Git
+
+1. Go to [the git downloads page](https://git-scm.com/downloads) and click the link to download the 'Windows' link.
+2. Step through the installer.
+3. Type `Windows button + r` to pull up the Run prompt.
+4. Type `cmd` and press enter to pull up a terminal.
+5. Type `git` and press enter; verify that the terminal displays instructions on how to use git.
+
 ## Download Python v2.7 (one time only)
 
 1. Go to [the python downloads page](https://www.python.org/downloads/release/python-2716) and click the link to download the 'Windows x86-64 MSI installer'
