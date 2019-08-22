@@ -1,5 +1,5 @@
-# Hosting a Webpage Locally
-Sometimes hosting a local copy of a webpage is helpful for testing or development tasks. Follow the steps below to host a page in Windows 10. 
+# Hosting a Webpage Locally with Python
+Sometimes hosting a local copy of a webpage is helpful for testing or development tasks. Follow the steps below to host a page in Windows 10 using Python. 
 
 ## Download Python v2.7 (one time only)
 
