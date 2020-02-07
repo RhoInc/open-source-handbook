@@ -62,13 +62,15 @@ A variety of projects at Rho are suitable for open source development. The check
 
 If you think your project would be a good candidate for open source release, contact us at [opensource@rhoworld.com](mailto:opensource@rhoworld.com).
 
-# Workflows
+# Workflows / Guides
 
 Details regarding suggested workflows for open source development at Rho are documented here:
 - [Open Source Committee](workflow/opensourcecommittee/README.md)
 - [Release](workflow/releases/README.md)
 - [Issues](workflow/issues/README.md)
+- [Testing / QC](workflow/testing/README.md)
 - [Process Maps](workflow/issues/Renderer-Process-Map-v1.0.1.pdf "Process Maps")
+- [Running a local Server](workflow/localhost/readme.md) 
 
 # Content Guidelines and Resources
 
