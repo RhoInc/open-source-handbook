@@ -1,6 +1,6 @@
 # Testing / Quality Control / Documentation Overview
 
-Testing and quality control is a major consideration for all projects. As such, multiple redundant testing/QC processes are built in to our standard process for all code development, as described in the workflow documents provided in this document. All testing is risk-based, so more complex updates are subject to more rigorous testing. 
+Testing and quality control is a major consideration for all projects. As such, multiple redundant testing/QC processes are built into our standard process for all code development, as described in the workflow documents provided in this document. All testing is risk-based, so more complex updates are subject to more rigorous testing. 
 
 This page provides a brief overview of our different testing / QC techniques. 
 
@@ -10,7 +10,7 @@ We consider detailed documentation to be a crucial first step in the quality con
 
 ## API / Configuration Documentation
 
-Detailed documentation of each projects API/configuration is maintained. In most cases, we use a machine-readable `settings-schema.json` file ([example](https://github.com/RhoInc/safety-results-over-time/blob/master/settings-schema.json)) that is then used to human-readable wiki pages ([example](https://github.com/RhoInc/safety-results-over-time/wiki/Configuration)).
+Detailed documentation of each project's API/configuration is maintained. In most cases, we use a machine-readable `settings-schema.json` file ([example](https://github.com/RhoInc/safety-results-over-time/blob/master/settings-schema.json)) that is then used to human-readable wiki pages ([example](https://github.com/RhoInc/safety-results-over-time/wiki/Configuration)).
 
 ## Functional Specifications
 
@@ -22,7 +22,7 @@ When appropriate a stand-alone data specification page is maintained in the proj
 
 ## Reproducible examples
 
-Whenever possible, our projects have one or more reproducible examples, which are automatically deployed using github pages whenever the repository is updated. ([example code](https://github.com/RhoInc/safety-results-over-time/tree/master/test-page), [hosted page]()http://rhoinc.github.io/safety-results-over-time/test-page/)
+Whenever possible, our projects have one or more reproducible examples, which are automatically deployed using github pages whenever the repository is updated. ([example code](https://github.com/RhoInc/safety-results-over-time/tree/master/test-page), [hosted page](http://rhoinc.github.io/safety-results-over-time/test-page/))
 
 ## Project overview / README.md
 
@@ -34,7 +34,7 @@ Longer write-ups describing the use of the project.
 
 ## Description Files / Package.json
 
-Formal description of project depenencies, version etc. (Details vary by programming language / framework)
+Formal description of project dependencies, version etc. (Details vary by programming language / framework)
 
 # Testing Methods 
 
@@ -42,7 +42,7 @@ We use a variety of testing methods across our projects.
 
 ## User Testing
 
-A user (often called a "tester") will confirm that specific functionality is behaving as expected. Testing instructions (or just "tests") are included as part of an issue. Issues numbers are referenced in both code commits and pull requests to help with tracibility. Testers record the test result in pull requests using the github review functionality.
+A user (often called a "tester") will confirm that specific functionality is behaving as expected. Testing instructions (or just "tests") are included as part of an issue. Issues numbers are referenced in both code commits and pull requests to help with traceability. Testers record the test result in pull requests using the github review functionality.
 
 ## Regression Testing
 
@@ -50,11 +50,11 @@ Testing that occurs immediately before a new version is released. Results are re
 
 ## Unit Testing / Automated Testing
 
-Programatic testing that typically occurs whenever code is committed to a project. 
+Programmatic testing that typically occurs whenever code is committed to a project. 
 
 ## Code Review
 
-Developers review other developers code (typically in feature brances). Results of code reviews are recorded in Feature PRs using GitHub's review functionality. 
+Developers review other developers' code (typically in feature branches). Results of code reviews are recorded in Feature PRs using GitHub's review functionality. 
 
 # Tools / Frameworks
 
