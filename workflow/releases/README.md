@@ -37,7 +37,7 @@ The process for planning, developing, testing and deploying a new version of an 
    - Confirm that the master branch is protected, and that a review is required before merging to master. 
 6. Add the pull request to the overall [GitHub project](https://github.com/orgs/RhoInc/projects/1) for tracking releases.
 7. Begin to work on the release. Updates to the codebase should be developed and tested in Feature Branches, which are merged into the dev branch when complete. For more details about working on issues, see the [issue workflow](https://github.com/RhoInc/open-source-handbook/blob/master/workflow/issues/README.md)
-7. Once all issues are resolved, the dev branch should be reviewed using the reviewer functionality in the associated PR. The exact review process is risk-based; larger, more complex updates recieve more scrutiny. As such the process varies from project to project and release to release. Options include: Code review, automated tests, regression testing, browser testing, etc.
+7. Once all issues are resolved, the dev branch should be reviewed using the reviewer functionality in the associated PR. The exact review process is risk-based; larger, more complex updates receive more scrutiny. As such the process varies from project to project and release to release. Options include: Code review, automated tests, regression testing, browser testing, etc.
 8. Once testing is complete, the dev branch/pull request can be merged in to master. 
 9. The wiki should be updated to document new functionality. 
 10. Publish release with descriptive releases notes in GitHub
