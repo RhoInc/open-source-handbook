@@ -68,9 +68,10 @@ Details regarding suggested workflows for open source development at Rho are doc
 - [Open Source Committee](workflow/opensourcecommittee/README.md)
 - [Release](workflow/releases/README.md)
 - [Issues](workflow/issues/README.md)
-- [Testing / QC](workflow/testing/README.md)
+- [Testing / QC](https://github.com/RhoInc/open-source-handbook/blob/master/workflow/testing/readme.md)
 - [Process Maps](workflow/issues/Renderer-Process-Map-v1.0.1.pdf "Process Maps")
 - [Running a local Server](workflow/localhost/readme.md) 
+- [QC Checklist](https://github.com/RhoInc/open-source-handbook/blob/master/workflow/qc-checklist/README.md)
 
 # Content Guidelines and Resources
 

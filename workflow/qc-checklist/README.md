@@ -6,7 +6,7 @@ This page documents quality control checklists that are used by the Data Science
 * The statistical checklist is used by the study teams as a reference to provide checks that can be used to catch commonly seen issues in the safety data before safety explorer is passed to a medical monitor for review
 
 
-## Technical QC for Safety Explorer (~5 Minutes)
+## Technical QC Checklist for Safety Explorer (~5 Minutes)
 
 - [ ] 	Make sure that active treatments are not included in the Safety Explorer datasets (either treatment arm is not available, or is coded as MOCK TREATMENT 1, 2, 3 etc.)
 - [ ] 	Confirm that the latest renderers releases are being used for each chart
